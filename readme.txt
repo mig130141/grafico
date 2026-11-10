@@ -6,3 +6,5 @@ EX:
 
 
 se não vai dar erro
+
+e o executavel está no target/grafico.jar
