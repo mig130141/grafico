@@ -20,8 +20,8 @@ public class main {
 
     public static void main(String[] args) {
 
-        String caminho = "C:/Users/migue/OneDrive/Documentos/NetBeansProjects/java1/src/alturas/alturas.txt";
-
+      String caminho = System.getProperty("user.dir") 
+        + "/src/alturas/alturas.txt";
         double[] alturas = LeitorAlturas.lerAlturas(caminho);
 
         if (alturas.length == 0) {
