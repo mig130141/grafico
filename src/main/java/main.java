@@ -22,7 +22,7 @@ public class main {
 
       String caminho = System.getProperty("user.dir") 
         + "/src/alturas/alturas.txt";
-        double[] alturas = LeitorAlturas.lerAlturas(caminho);
+       double[] alturas = LeitorAlturas.lerAlturas();
 
         if (alturas.length == 0) {
             System.out.println("Nenhuma altura encontrada!");
